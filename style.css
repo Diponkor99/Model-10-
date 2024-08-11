@@ -2,12 +2,60 @@
 
 *{
     font-family: "Work Sans", sans-serif;
+    margin: 0px;
 }
 #nav-G3{
     font-size: 45px;
     font-weight:bold ;
     color: #131313;
 }
-.nav-ul{
-    
+.list-nav{
+    display:flex;
+    justify-content:space-between;
+    padding:63px 230px 110px ;
+    align-items: center;
 }
+.list-aitem-ul{
+display: flex;
+list-style: none;
+font-size: 18px;
+
+
+}
+.ankor-aitem{
+    text-decoration: none;
+    margin: 25px;
+    color:#424242 ;
+    font-weight: 500;
+}
+.header-nav{
+ width: 1920px;
+ height: 1322px;   
+ background-color:rgba(255, 144, 14, 0.1);
+}
+#brand-name{
+  width: 862px;
+  font-size: 64px;
+  font-weight: bold;  
+  color:#131313;
+text-align: center;
+margin: 0px auto;
+}
+#nav-p{
+    font-size: 16px;
+    font-weight: 400;
+    width:868px ;
+    color:#727272 ;
+    margin: 40px auto 32px;
+    text-align: center;
+}
+.button-1{
+    font-size: 20px;
+    font-weight: 600px;
+    color:rgba(255, 255, 255, 1);
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin: 0px 45%;
+   }
